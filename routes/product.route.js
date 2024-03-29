@@ -15,7 +15,7 @@ router.put("/update/:id", updateProduct)
 router.delete("/:id", deleteProduct)
 
 //create product
-router.post("/", addProduct)
+router.post("/add", addProduct)
 
 //export to index.js
 module.exports = router
