@@ -9,7 +9,7 @@ router.get('/', getProducts)
 router.get("/:id", getProduct)
 
 //update product
-router.put("/:id", updateProduct)
+router.put("/update/:id", updateProduct)
 
 //delete product
 router.delete("/:id", deleteProduct)
